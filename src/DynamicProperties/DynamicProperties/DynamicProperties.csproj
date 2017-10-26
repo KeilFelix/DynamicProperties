@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon>fk.ico</ApplicationIcon>
+    <Authors>Felix Keil</Authors>
+    <Company>-</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This project has the ability to add properties to objects at runtime.
+These properties can even be used for Databinding on ViewModels.
+These package contains only the basic classes to enable this feature.</Description>
+    <Copyright>PutridParrot</Copyright>
+    <PackageLicenseUrl>https://github.com/KeilFelix/DynamicProperties/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/KeilFelix/DynamicProperties</PackageProjectUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>fk.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <PackageId>Keil.DynamicProperties</PackageId>
+    <Product>Keil.DynamicProperties</Product>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
