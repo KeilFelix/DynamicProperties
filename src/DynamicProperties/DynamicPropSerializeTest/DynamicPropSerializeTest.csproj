@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DynamicProperties.Serialization\DynamicProperties.Serialization.csproj" />
     <ProjectReference Include="..\DynamicProperties\DynamicProperties.csproj" />
   </ItemGroup>
 
